@@ -2,7 +2,9 @@
 
 A python3 script using Tornado and JSBeautifier to parse relative URLs from JavaScript files. Useful for easily discovering AJAX requests when performing security research or bug bounty hunting.
 
-**This Tool is created by @nahamsec and I have just done a few changes to make this tool work with MacOs and the latest dependencies.**
+**This Tool is created by @nahamsec and I have just done a few changes to make this tool work with Linux in kali and the latest dependencies.**
+
+**clone the repository and install under this instruction.**
 
 **Orginal Repo:** https://github.com/nahamsec/JSParser/
 
@@ -14,9 +16,6 @@ pip3 uninstall pycurl
 pip3 install --no-cache-dir --global-option=build_ext --global-option="-L/usr/local/opt/openssl/lib" --global-option="-I/usr/local/opt/openssl/include"  pycurl
 ```
 
-## Fix tested on
-* MacOs Catalina
-* Fedora
 
 # Dependencies
 
@@ -37,6 +36,10 @@ Run `handler.py` and then visit http://localhost:8008.
 ```
 $ python3 handler.py
 ```
+# Thanks from
+
+- https://github.com/nahamsec/
+
 
 # Authors
 
