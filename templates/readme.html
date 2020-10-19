@@ -1,0 +1,22 @@
+{% module Template("header.html") %}
+
+<h1>JSParser</h1>
+<p>A python3 script using Tornado and JSBeautifier to parse relative URLs from JavaScript files. Useful for easily discovering AJAX requests when performing security research or bug bounty hunting.</p>
+<h1><a id="Dependencies_4"></a>Dependencies</h1>
+<ul>
+   <li>safeurl</li>
+   <li>tornado</li>
+   <li>jsbeautifier</li>
+</ul>
+<h1><a id="Installing_10"></a>Installing</h1>
+<pre><code>$ python setup.py install
+</code></pre>
+<h1><a id="Running_16"></a>Running</h1>
+<p>Run <code>handler.py</code> and then visit <a href="http://localhost:8008">http://localhost:8008</a>.</p>
+<pre><code>$ python handler.py
+</code></pre
+<h1><a id="Changelog_38"></a><b>Changelog</b></h1>
+<pre><b>13 July, 2017</b> - 1.0 Release
+<b>23 September, 2020</b> - Updated to work with Python3 by <a href="https://prial.me">0xPrial</a></pre>
+
+{% module Template("footer.html") %}
